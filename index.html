@@ -1,0 +1,798 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./container/main.css">
+    <link rel="stylesheet" href="./container/font/themify-icons/themify-icons.css">
+    <link rel="stylesheet" href="./container/grid.css">
+    <link rel="stylesheet" href="./container/responsive.css">
+    <title>Document</title>
+</head>
+<body>
+    <header class="header">
+        <div class="header_container">
+            <div class="header_nav">
+                <div class="communicate">
+                    <ul class="communicate_list">
+                        <li>
+                            <a href="">
+                                <i class="ti-pinterest-alt" style="color: #fff; font-size:10px;" style="color: #fff; font-size:10px;"></i>
+                            </a>
+                        </li>
+                        <li><a href="">
+                            <i class="ti-facebook" style="color: #fff; font-size:10px;"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                <i class="ti-twitter-alt" style="color: #fff; font-size:10px;"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                <i class="ti-dribbble" style="color: #fff; font-size:10px;"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                <i class="ti-instagram" style="color: #fff; font-size:10px;"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                <i class="ti-linkedin" style="color: #fff; font-size:10px;"></i>
+                            </a>
+                        </li>
+                    </ul>
+                    <ul class="communicate_late">
+                        <span class="login log">ĐĂNG NHẬP</span>
+                        <span class="logout log">ĐĂNG KÝ</span>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="header_home">
+                <div class="header_home-container">
+                    <img src="./container/image/logo.webp" alt="" class="header_home-logo">
+                    <h1 class="header_home-text">
+                        TRAVELIX
+                    </h1>
+                </div>
+
+                <div class="header_home-list">
+                    <ul class="header_nav-item">
+                        <li><a href="">NHÀ</a></li>
+                        <li><a href="">VỀ</a></li>
+                        <li><a href="">ĐỀ TÀI</a></li>
+                        <li><a href="">TIN TỨC</a></li>
+                        <li><a href="">TIẾP SỨC</a></li>
+                    </ul>
+                </div>
+
+                <div class="header_home-search">
+                    <i class="ti-search"></i>
+                </div>
+            </div>
+
+            <div class="header_slider">
+                <div class="header_slider-text">
+                    <h1 class="header_slider-heading">
+                        DISCOVER
+                    </h1>
+                    <span class="header_slider-heading--text">
+                        The world
+                    </span>
+                </div>
+                <button class="header_btn">
+                    KHÁM PHÁ NGAY
+                </button>
+            </div>
+
+            <div class="image_backgroud"></div>
+        </div>
+    </header>
+
+    <div class="container">
+        <div class="navbar_item">
+            <div class="grid wide">
+                <div class="header_tabar">
+                    <ul class="header_tabar--list">
+                        <li class="header_tabar--item">
+                            <img class="header_tabar--item-icon" src="./container/image/hotel.webp" alt="">
+                            HOTELS
+                        </li>
+                        <li class="header_tabar--item">
+                            <img class="header_tabar--item-icon" src="./container/image/car.webp" alt="">
+                            CAR RENTALS
+                        </li>
+                        <li class="header_tabar--item">
+                            <img class="header_tabar--item-icon" src="./container/image/fly.webp" alt="">
+                            FLIGHTS
+                        </li>
+                        <li class="header_tabar--item">
+                            <img class="header_tabar--item-icon" src="./container/image/trip.webp" alt="">
+                            TRIPS
+                        </li>
+                        <li class="header_tabar--item">
+                            <img class="header_tabar--item-icon" src="./container/image/cruises.webp" alt="">
+                            CRUISES
+                        </li>
+                        <li class="header_tabar--item">
+                            <img class="header_tabar--item-icon" src="./container/image/activities.webp" alt="">
+                            ACTIVITIES
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="search">
+                    <div class="row">
+                        <div class="col l-4 l-o-1 m-6 c-12">
+                            <div class="search_section">
+                                <div class="search_label">DESTINATION</div>
+                                <input type="text" class="search_input">
+                            </div>
+                        </div>
+
+                        <div class="col l-2 m-6 c-12">
+                            <div class="search_section">
+                                <div class="search_label">CHECK IN</div>
+                                <input type="text" class="search_input">
+                            </div>
+                        </div>
+
+                        <div class="col l-2 m-6 c-12">
+                            <div class="search_section">
+                                <div class="search_label">CHECK OUT</div>
+                                <input type="text" class="search_input">
+                            </div>
+                        </div>
+
+                        <div class="col l-1 m-3 c-6">
+                            <div class="search_section">
+                                <div class="search_label">ADULTS</div>
+                                <input type="number" class="search_input">
+                            </div>
+                        </div>
+
+                        <div class="col l-1 m-3 c-6">
+                            <div class="search_section">
+                                <div class="search_label">CHILDREN</div>
+                                <input type="number" class="search_input">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col l-2 l-o-9 m-5 m-o-7 c-6 c-o-6">
+                            <button class="search__btn">SEARCH</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="tour">
+            <div class="grid wide">
+                <div class="tour_content">
+                    <h2 class="tour_text">We have the best tours</h2>
+                    <span class="tour_note">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam eu convallis tortor. Suspendisse potenti. In faucibus massa arcu, vitae cursus mi hendrerit nec.</span>
+                </div>
+
+                <div class="tour_list">
+                    <div class="row">
+                        <div class="col l-4 m-12 c-12">
+                            <div class="tour_item" style="background: url(./container/image/tour1.webp) top center / cover no-repeat;">
+                                <div class="tour_item--container">
+                                    <p class="tour_item--date">
+                                        May 15th - July 01st
+                                    </p>
+                                    <div class="tour_item--info">
+                                        <h4 class="tour_item--place">Scotland</h4>
+                                        <p class="tour_item--price">From $1450</p>
+                                        <div class="tour_item--rating">
+                                            <i class="ti-star"></i>
+                                            <i class="ti-star"></i>
+                                            <i class="ti-star"></i>
+                                            <i class="ti-star"></i>
+                                            <i class="ti-star"></i>
+                                        </div>
+                                    </div>
+                                    <button class="tour_item--btn">SEE MORE</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col l-4 m-12 c-12">
+                            <div class="tour_item" style="background: url(./container/image/tour2.webp) top center / cover no-repeat;">
+                                <div class="tour_item--container">
+                                    <p class="tour_item--date">
+                                        May 15th - July 01st
+                                    </p>
+                                    <div class="tour_item--info">
+                                        <h4 class="tour_item--place">Greece</h4>
+                                        <p class="tour_item--price">From $1450</p>
+                                        <div class="tour_item--rating">
+                                            <i class="ti-star"></i>
+                                            <i class="ti-star"></i>
+                                            <i class="ti-star"></i>
+                                            <i class="ti-star"></i>
+                                            <i class="ti-star"></i>
+                                        </div>
+                                    </div>
+                                    <button class="tour_item--btn">SEE MORE</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col l-4 m-12 c-12">
+                            <div class="tour_item" style="background: url('./container/image/tour3.webp')  top center / cover no-repeat;">
+                                <div class="tour_item--container">
+                                    <p class="tour_item--date">
+                                        May 15th - July 01st
+                                    </p>
+                                    <div class="tour_item--info">
+                                        <h4 class="tour_item--place">Mauritius</h4>
+                                        <p class="tour_item--price">From $1450</p>
+                                        <div class="tour_item--rating">
+                                            <i class="ti-star"></i>
+                                            <i class="ti-star"></i>
+                                            <i class="ti-star"></i>
+                                            <i class="ti-star"></i>
+                                            <i class="ti-star"></i>
+                                        </div>
+                                    </div>
+                                    <button class="tour_item--btn">SEE MORE</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="package">
+            <div class="grid wide">
+                <div class="package_container">
+                    <h2 class="package_container--text tour_text">MALDIVES DELUXE PACKAGE</h2>
+                    <div class="package_container--rating tour_item--rating">
+                        <i class="ti-star"></i>
+                        <i class="ti-star"></i>
+                        <i class="ti-star"></i>
+                        <i class="ti-star"></i>
+                        <i class="ti-star"></i>
+                    </div>
+                    <span class="package_container--note tour_note">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam eu convallis tortor. Suspendisse potenti. In faucibus massa arcu, vitae cursus mi hendrerit nec. Proin bibendum, augue faucibus tincidunt ultrices, tortor augue gravida lectus, et efficitur enim justo vel ligula.
+                    </span>
+                    <button class="package_container--btn tour_item--btn">BOOK NOW</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="offers">
+            <div class="grid wide">
+                <div class="offers_content">
+                    <h2 class="offers_content--text tour_text">
+                        THE BEST OFFERS WITH ROOMS
+                    </h2>
+                </div>
+                <div class="offers_list">
+                    <div class="row">
+                        <div class="col l-6 m-12 c-12">
+                            <div class="offer_list-item">
+                                <div class="offer_img" style=" background-image: url(./container/image/offersbg1.webp)">
+                                    <a href="" class="offer_img--name">GRAND CASTLE</a>
+                                </div>
+                                <div class="offer_container">
+                                    <div class="offer_container--content">
+                                        <h4 class="offer_container--content-price">
+                                            $80
+                                            <span>per night</span>
+                                        </h4>
+                                        <div class="offer_container--content-rating tour_item--rating">
+                                            <i class="ti-star"></i>
+                                            <i class="ti-star"></i>
+                                            <i class="ti-star"></i>
+                                            <i class="ti-star"></i>
+                                            <i class="ti-star"></i>
+                                        </div>
+                                        <span class="offer_container--content-note">
+                                            Suspendisse potenti. In faucibus massa. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam eu convallis tortor.
+                                        </span>
+                                        <div class="offer_container--content-icon">
+                                            <img src="./container/image/ofi1.webp" alt="" class="offer_container-content-icont-img">
+                                            <img src="./container/image/ofi2.webp" alt="" class="offer_container-content-icont-img">
+                                            <img src="./container/image/ofi3.webp" alt="" class="offer_container-content-icont-img">
+                                            <img src="./container/image/ofi4.webp" alt="" class="offer_container-content-icont-img">
+                                        </div>
+                                    </div>
+                                    <a href="" class="offer_container-content-more">
+                                        Read more
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col l-6 m-12 c-12">
+                            <div class="offer_list-item">
+                                <div class="offer_img" style=" background-image: url(./container/image/offersbg2.webp)">
+                                    <a href="" class="offer_img--name">GRAND CASTLE</a>
+                                </div>
+                                <div class="offer_container">
+                                    <div class="offer_container--content">
+                                        <h4 class="offer_container--content-price">
+                                            $80
+                                            <span>per night</span>
+                                        </h4>
+                                        <div class="offer_container--content-rating tour_item--rating">
+                                            <i class="ti-star"></i>
+                                            <i class="ti-star"></i>
+                                            <i class="ti-star"></i>
+                                            <i class="ti-star"></i>
+                                            <i class="ti-star"></i>
+                                        </div>
+                                        <span class="offer_container--content-note">
+                                            Suspendisse potenti. In faucibus massa. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam eu convallis tortor.
+                                        </span>
+                                        <div class="offer_container--content-icon">
+                                            <img src="./container/image/ofi1.webp" alt="" class="offer_container-content-icont-img">
+                                            <img src="./container/image/ofi2.webp" alt="" class="offer_container-content-icont-img">
+                                            <img src="./container/image/ofi3.webp" alt="" class="offer_container-content-icont-img">
+                                            <img src="./container/image/ofi4.webp" alt="" class="offer_container-content-icont-img">
+                                        </div>
+                                    </div>
+                                    <a href="" class="offer_container-content-more">
+                                        Read more
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col l-6 m-12 c-12">
+                            <div class="offer_list-item">
+                                <div class="offer_img" style=" background-image: url(./container/image/offersbg3.webp)">
+                                    <a href="" class="offer_img--name">GRAND CASTLE</a>
+                                </div>
+                                <div class="offer_container">
+                                    <div class="offer_container--content">
+                                        <h4 class="offer_container--content-price">
+                                            $80
+                                            <span>per night</span>
+                                        </h4>
+                                        <div class="offer_container--content-rating tour_item--rating">
+                                            <i class="ti-star"></i>
+                                            <i class="ti-star"></i>
+                                            <i class="ti-star"></i>
+                                            <i class="ti-star"></i>
+                                            <i class="ti-star"></i>
+                                        </div>
+                                        <span class="offer_container--content-note">
+                                            Suspendisse potenti. In faucibus massa. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam eu convallis tortor.
+                                        </span>
+                                        <div class="offer_container--content-icon">
+                                            <img src="./container/image/ofi1.webp" alt="" class="offer_container-content-icont-img">
+                                            <img src="./container/image/ofi2.webp" alt="" class="offer_container-content-icont-img">
+                                            <img src="./container/image/ofi3.webp" alt="" class="offer_container-content-icont-img">
+                                            <img src="./container/image/ofi4.webp" alt="" class="offer_container-content-icont-img">
+                                        </div>
+                                    </div>
+                                    <a href="" class="offer_container-content-more">
+                                        Read more
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col l-6 m-12 c-12">
+                            <div class="offer_list-item">
+                                <div class="offer_img" style=" background-image: url(./container/image/offersbg4.webp)">
+                                    <a href="" class="offer_img--name">GRAND CASTLE</a>
+                                </div>
+                                <div class="offer_container">
+                                    <div class="offer_container--content">
+                                        <h4 class="offer_container--content-price">
+                                            $80
+                                            <span>per night</span>
+                                        </h4>
+                                        <div class="offer_container--content-rating tour_item--rating">
+                                            <i class="ti-star"></i>
+                                            <i class="ti-star"></i>
+                                            <i class="ti-star"></i>
+                                            <i class="ti-star"></i>
+                                            <i class="ti-star"></i>
+                                        </div>
+                                        <span class="offer_container--content-note">
+                                            Suspendisse potenti. In faucibus massa. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam eu convallis tortor.
+                                        </span>
+                                        <div class="offer_container--content-icon">
+                                            <img src="./container/image/ofi1.webp" alt="" class="offer_container-content-icont-img">
+                                            <img src="./container/image/ofi2.webp" alt="" class="offer_container-content-icont-img">
+                                            <img src="./container/image/ofi3.webp" alt="" class="offer_container-content-icont-img">
+                                            <img src="./container/image/ofi4.webp" alt="" class="offer_container-content-icont-img">
+                                        </div>
+                                    </div>
+                                    <a href="" class="offer_container-content-more">
+                                        Read more
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="about">
+            <div class="grid wide">
+                <h2 class="about_heading">WHAT OUR CLIENTS SAY ABOUT US</h2>
+                <div class="about_list">
+                    <div class="row">
+                        <div class="col l-4 m-6 c-12">
+                            <div class="about--img" style="background-image: url(./container/image/ab1.webp);">
+                                <div class="about--img-icon">
+                                    <img src="./container/image/abi1.webp" alt="" style="width: 31px; height: 35px;">
+                                </div>
+                                <div class="about_container">
+                                    <div class="about_container--name">
+                                        <span class="about_container--name-text">
+                                            CARLA SMITH
+                                        </span>
+                                        <span class="about_container--name-date">
+                                            April 23, 2021
+                                        </span>
+                                    </div>
+                                    <div class="about_container--content">
+                                        <div class="about_container--content-text">
+                                            " Best holliday ever "
+                                        </div>
+                                        <div class="about_container--content-note">
+                                            Nullam eu convallis tortor. Suspendisse potenti. In faucibus massa arcu, vitae cursus mi hendrerit nec.
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="col l-4 m-6 c-12">
+                            <div class="about--img" style="background-image: url(./container/image/ab2.webp);">
+                                <div class="about--img-icon">
+                                    <img src="./container/image/abi2.webp" alt="" style="width: 31px; height: 35px;">
+                                </div>
+                                <div class="about_container">
+                                    <div class="about_container--name">
+                                        <span class="about_container--name-text">
+                                            CARLA SMITH
+                                        </span>
+                                        <span class="about_container--name-date">
+                                            April 23, 2021
+                                        </span>
+                                    </div>
+                                    <div class="about_container--content">
+                                        <div class="about_container--content-text">
+                                            " Best holliday ever "
+                                        </div>
+                                        <div class="about_container--content-note">
+                                            Nullam eu convallis tortor. Suspendisse potenti. In faucibus massa arcu, vitae cursus mi hendrerit nec.
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col l-4 m-6 c-12">
+                            <div class="about--img" style="background-image: url(./container/image/ab3.webp);">
+                                <div class="about--img-icon">
+                                    <img src="./container/image/abi3.webp" alt="" style="width: 31px; height: 35px;">
+                                </div>
+                                <div class="about_container">
+                                    <div class="about_container--name">
+                                        <span class="about_container--name-text">
+                                            CARLA SMITH
+                                        </span>
+                                        <span class="about_container--name-date">
+                                            April 23, 2021
+                                        </span>
+                                    </div>
+                                    <div class="about_container--content">
+                                        <div class="about_container--content-text">
+                                            " Best holliday ever "
+                                        </div>
+                                        <div class="about_container--content-note">
+                                            Nullam eu convallis tortor. Suspendisse potenti. In faucibus massa arcu, vitae cursus mi hendrerit nec.
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="trending">
+            <div class="grid wide">
+                <h2 class="trending_header about_heading">TRENDING NOW</h2>
+                <div class="trending_content">
+                    <div class="row">
+                        <div class="col l-3 m-4 c-6">
+                            <div class="trending_item">
+                                <div class="trending_item-img">
+                                    <img src="./container/image/td2.webp" alt="">
+                                </div>
+                                <div class="trending_item-container">
+                                    <span class="trending_item-container--name">
+                                        GRAND HOTEL
+                                    </span>
+                                    <span class="trending_item-container--price">From $100</span>
+                                    <span class="trending_item-container--place">
+                                        Ha Noi, Viet Nam
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col l-3 m-4 c-6">
+                            <div class="trending_item">
+                                <div class="trending_item-img">
+                                    <img src="./container/image/td2.webp" alt="">
+                                </div>
+                                <div class="trending_item-container">
+                                    <span class="trending_item-container--name">
+                                        GRAND HOTEL
+                                    </span>
+                                    <span class="trending_item-container--price">From $100</span>
+                                    <span class="trending_item-container--place">
+                                        Ha Noi, Viet Nam
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col l-3 m-4 c-6">
+                            <div class="trending_item">
+                                <div class="trending_item-img">
+                                    <img src="./container/image/td2.webp" alt="">
+                                </div>
+                                <div class="trending_item-container">
+                                    <span class="trending_item-container--name">
+                                        GRAND HOTEL
+                                    </span>
+                                    <span class="trending_item-container--price">From $100</span>
+                                    <span class="trending_item-container--place">
+                                        Ha Noi, Viet Nam
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col l-3 m-4 c-6">
+                            <div class="trending_item">
+                                <div class="trending_item-img">
+                                    <img src="./container/image/td2.webp" alt="">
+                                </div>
+                                <div class="trending_item-container">
+                                    <span class="trending_item-container--name">
+                                        GRAND HOTEL
+                                    </span>
+                                    <span class="trending_item-container--price">From $100</span>
+                                    <span class="trending_item-container--place">
+                                        Ha Noi, Viet Nam
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col l-3 m-4 c-6">
+                            <div class="trending_item">
+                                <div class="trending_item-img">
+                                    <img src="./container/image/td2.webp" alt="">
+                                </div>
+                                <div class="trending_item-container">
+                                    <span class="trending_item-container--name">
+                                        GRAND HOTEL
+                                    </span>
+                                    <span class="trending_item-container--price">From $100</span>
+                                    <span class="trending_item-container--place">
+                                        Ha Noi, Viet Nam
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col l-3 m-4 c-6">
+                            <div class="trending_item">
+                                <div class="trending_item-img">
+                                    <img src="./container/image/td2.webp" alt="">
+                                </div>
+                                <div class="trending_item-container">
+                                    <span class="trending_item-container--name">
+                                        GRAND HOTEL
+                                    </span>
+                                    <span class="trending_item-container--price">From $100</span>
+                                    <span class="trending_item-container--place">
+                                        Ha Noi, Viet Nam
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col l-3 m-4 c-6">
+                            <div class="trending_item">
+                                <div class="trending_item-img">
+                                    <img src="./container/image/td2.webp" alt="">
+                                </div>
+                                <div class="trending_item-container">
+                                    <span class="trending_item-container--name">
+                                        GRAND HOTEL
+                                    </span>
+                                    <span class="trending_item-container--price">From $100</span>
+                                    <span class="trending_item-container--place">
+                                        Ha Noi, Viet Nam
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col l-3 m-4 c-6">
+                            <div class="trending_item">
+                                <div class="trending_item-img">
+                                    <img src="./container/image/td2.webp" alt="">
+                                </div>
+                                <div class="trending_item-container">
+                                    <span class="trending_item-container--name">
+                                        GRAND HOTEL
+                                    </span>
+                                    <span class="trending_item-container--price">From $100</span>
+                                    <span class="trending_item-container--place">
+                                        Ha Noi, Viet Nam
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="contact">
+            <div class="contact_img"></div>
+            <div class="grid wide">
+                <div class="contact_container">
+                    <h4 class="contact_container--header">
+                        GET IN TOUCH
+                    </h4>
+                    <form action="" class="contact_container--form">
+                        <input type="text" placeholder="Name" class="contact_container--input contact_container--input1">
+                        <input type="text" placeholder="Email" class="contact_container--input contact_container--input1">
+                        <input type="text" placeholder="Subject" class="contact_container--input">
+                        <textarea name="" placeholder="Message" class="contact_container--input" id="" cols="30" rows="10"></textarea>
+                        <button class="contact_container--btn">SEND MESSAGE</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="footer">
+        <div class="grid wide">
+            <div class="row">
+                <div class="col l-3 m-6 c-12">
+                    <div class="footer_container">
+                        <div class="footer_home">
+                            <img src="./container/image/logo.webp" alt="">
+                            <h2 class="footer_home--text">TRAVELIX</h2>
+                        </div>
+                        <span class="footer_note">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus quis vu lputate eros, iaculis consequat nisl. Nunc et suscipit urna. Integer eleme ntum orci eu vehicula pretium.</span>
+                        <div class="footer_container--list">
+                            <ul class="communicate_list footer_container--icon">
+                                <li>
+                                    <a href="">
+                                        <i class="ti-pinterest-alt footer_container--icon1" style="color: #fff; "></i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="">
+                                        <i class="ti-facebook footer_container--icon1" style="color: #fff;"></i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="">
+                                        <i class="ti-twitter-alt footer_container--icon1" style="color: #fff;"></i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="">
+                                        <i class="ti-dribbble footer_container--icon1" style="color: #fff;"></i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="">
+                                        <i class="ti-instagram footer_container--icon1" style="color: #fff;"></i>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col l-3 m-6 c-12">
+                    <h4 class="footer_blog">BLOG POSTS</h4>
+                    <div class="footer_blog-list">
+                        <img src="./container/image/td2.webp" alt="" class="footer_blog-item--img">
+                        <div class="footer_blog-container">
+                            <h5 class="footer_blog-container-text">
+                                Travel with us this year
+                            </h5>
+                            <span class="footer_blog-container-date">
+                                April 23, 2022
+                            </span>
+                        </div>
+                    </div>
+                    <div class="footer_blog-list">
+                        <img src="./container/image/td2.webp" alt="" class="footer_blog-item--img">
+                        <div class="footer_blog-container">
+                            <h5 class="footer_blog-container-text">
+                                Travel with us this year
+                            </h5>
+                            <span class="footer_blog-container-date">
+                                April 23, 2022
+                            </span>
+                        </div>
+                    </div>
+                    <div class="footer_blog-list">
+                        <img src="./container/image/td2.webp" alt="" class="footer_blog-item--img">
+                        <div class="footer_blog-container">
+                            <h5 class="footer_blog-container-text">
+                                Travel with us this year
+                            </h5>
+                            <span class="footer_blog-container-date">
+                                April 23, 2022
+                            </span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col l-3 m-6 c-12">
+                    <h4 class="footer_tag footer_blog">TAGS</h4>
+                    <div class="footer_tag-list">
+                        <a href="" class="footer_tag-link">design</a>
+                        <a href="" class="footer_tag-link">fashion</a>
+                        <a href="" class="footer_tag-link">music</a>
+                        <a href="" class="footer_tag-link">video</a>
+                        <a href="" class="footer_tag-link">party</a>
+                        <a href="" class="footer_tag-link">photographic</a>
+                        <a href="" class="footer_tag-link">adventure</a>
+                        <a href="" class="footer_tag-link">travel</a>
+                    </div>
+                </div>
+
+                <div class="col l-3 m-6 c-12">
+                    <h4 class="footer_contact footer_blog">CONTACT INFO</h4>
+                    <div class="footer_contact-list">
+                        <ul class="footer_contact-item">
+                            <li>
+                                <img src="./container/image/fi1.svg" alt="" class="footer_contact-icon">
+                                <span>Đại học Thủy Lợi</span>
+                            </li>
+                            <li>
+                                <img src="./container/image/fi2.svg" alt="" class="footer_contact-icon">
+                                <span>+84 961 010 601</span>
+                            </li>
+                            <li>
+                                <img src="./container/image/fi3.svg" alt="" class="footer_contact-icon">
+                                <span>canxuanthang@gmail.com</span>
+                            </li>
+                            <li>
+                                <img src="./container/image/fi4.svg" alt="" class="footer_contact-icon">
+                                <span>www.fullstack.edu.vn</span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="footer_copyright">
+                <span>Copyright © 2022 By</span>
+                <a href="">Cấn Xuân Thắng</a>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

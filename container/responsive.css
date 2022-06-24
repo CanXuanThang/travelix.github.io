@@ -1,0 +1,110 @@
+@media (min-width: 767px) and (max-width: 1023px) {
+    .header_tabar {
+        position: relative;
+        bottom: 0;
+        background-color: transparent;
+        border-top-right-radius: 0;
+        border-top-left-radius: 0;
+        width: 100%;
+        margin-left: 0;
+    }
+
+    .header_tabar--list {
+        display: flex;
+        flex-wrap: wrap;
+        margin: 0 12px;
+    }
+
+    .header_tabar--item {
+        width: 48.9%;
+        height: 62px;
+        margin: 8px 0;
+        background-color: var(--white-color);
+    }
+
+    .header_tabar--list li:nth-child(1),
+    .header_tabar--list li:nth-child(3),
+    .header_tabar--list li:nth-child(5) {
+        margin-right: 12px;
+    }
+}
+
+@media (min-width: 320px) and (max-width:766px) {
+    .header_tabar {
+        position: relative;
+        bottom: 0;
+        background-color: transparent;
+        border-top-right-radius: 0;
+        border-top-left-radius: 0;
+        width: 100%;
+        margin-left: 0;
+    }
+
+    .header_tabar--list {
+        display: flex;
+        flex-wrap: wrap;
+        margin: 0 12px;
+    }
+
+    .header_tabar--item {
+        width: 48.9%;
+        height: 62px;
+        margin: 8px 0;
+        background-color: var(--white-color);
+    }
+
+    .header_tabar--list li:nth-child(1),
+    .header_tabar--list li:nth-child(3),
+    .header_tabar--list li:nth-child(5) {
+        margin-right: 12px;
+    }
+
+    .contact_container {
+        width: 100%;
+        transform: translateX(0);
+    }
+
+    .search,
+    .trending,
+    .tour,
+    .offers,
+    .about{
+        margin: 0 12px;
+    }
+
+    .footer {
+        padding: 24px 24px;
+    }
+}
+
+@media (min-width: 320px) and (max-width: 766px) {
+    .header_nav {
+        display: none;
+    }
+
+    .header_slider-heading,
+    .header_slider-heading--text {
+        font-size: 54px;
+    }
+
+    .header_tabar--item {
+        width: 100%;
+    }
+
+    .header_tabar--list li:nth-child(1),
+    .header_tabar--list li:nth-child(3),
+    .header_tabar--list li:nth-child(5) {
+        margin-right: 0;
+    }
+
+    .search__btn {
+        transform: translateX(-24%);
+    }
+
+    .trending_item {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}
